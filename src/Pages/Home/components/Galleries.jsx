@@ -84,11 +84,11 @@ const images = [
 const Galleries = () => {
       const { t } = useTranslation();
   return (
-    <div>
+    <div className="gal">
       <h1 className="galleries__title">{t("footer.5.1")}</h1>
       <div className="galleries__box container">
         {images.map((element, index) => {
-            return<ModalImage key={element} className="Image" small={element.img2} large={element.img1} />;
+            return<ModalImage key={element} className="galleries__img" small={element.img2} large={element.img1} />;
 
         })}
       </div>

@@ -7,8 +7,8 @@ import Telegram_icon from '../../assets/icon/Telegram.svg'
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer className="footer col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-      <div className="container col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <footer className="footer col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+      <div className="container col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
         <div className="foo">
           <img src={Logo2} alt="logo" className="logo" />
           <div className="footer__navigation">
@@ -32,7 +32,7 @@ const Footer = () => {
             </h2>
           </div>
         </div>
-        <div className="container d-flex justify-content-between align-items-center mt-5">
+        <div className="container d-flex justify-content-between align-items-center mt-5 ms-0">
           <p className="footer__text">
             {t("why.1")} {t("why.2")} 2023
           </p>
@@ -40,7 +40,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100088837771760">
             <img src={Facebook_icon} alt="" />
             </a>
-            <a href="https://t.me/shahriyorwebdev">
+            <a href="https://t.me/+998911263889">
               <img src={Telegram_icon} alt="" />
             </a>
           </div>

@@ -89,7 +89,8 @@
         height: 225px !important;
         margin-right: 0 !important;
     }
-    .advantages__icon1{
+
+    .advantages__icon1 {
         margin-bottom: 10px !important;
     }
 }
@@ -103,12 +104,15 @@
     .thisMuseum__container {
         flex-direction: column;
     }
-    .contacts__message{
+
+    .contacts__message {
         justify-content: center;
     }
-    .location_google{
+
+    .location_google {
         justify-content: center;
     }
+
     .hero__text {
         font-size: 16px !important;
     }
@@ -136,38 +140,30 @@
         font-size: 16px !important;
     }
 
-    .history__container {
-        margin: 0 !important;
-        width: 100% !important;
-        max-width: 768px !important;
+    .his>.container {
+        margin-left: 0 !important;
     }
-
+    
+    .history__container {
+        width: 100% !important;
+        max-width: 668px !important;
+    }
+    
     .footer__navigation {
         display: grid !important;
         grid-template-columns: auto auto;
     }
-
+    
+    .gal>.container {
+        margin-left: 0 !important;
+    }
+    .galleries__box {
+        flex-flow: row wrap;
+    }
     .footer {
         height: 259px !important;
     }
-
-    .galleries__box {
-        grid-template-columns: auto auto !important;
-    }
-
-    .advantages {
-        height: auto !important;
-    }
-
-    .advantages__container {
-        display: grid;
-        grid-template-columns: auto auto !important;
-        /* margin: 0 30px !important; */
-    }
-    .container{
-        margin: 0 30px !important;
-        
-    }
+    
     .contacts__box {
         margin: 0 !important;
     }
@@ -190,15 +186,10 @@
     .tel__num {
         margin-top: 60px !important;
     }
-        .advantages__box {
-            max-width: 354px !important;
-        }
-        .advantages__container{
-            margin: 0 !important;
-        }
-        .container{
-            margin: 0 !important;
-        }
+
+    .advantages__container {
+        margin: 0 !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -245,13 +236,6 @@
         width: 100% !important;
     }
 
-    .advantages__container {
-        grid-template-columns: auto !important;
-    }
-
-    .advantages__box {
-        max-width: 340px !important;
-    }
 }
 
 
@@ -270,10 +254,6 @@
         grid-template-columns: auto;
     }
 
-    /* .thisMuseum__container{
-        display: flex !important;
-        flex-direction: column !important;
-    } */
     .history__master {
         max-width: 380px !important;
         height: 490px !important;
@@ -298,7 +278,6 @@
         max-width: 380px !important;
         width: 100% !important;
         height: 225px !important;
-        /* margin-right: 0 !important; */
         font-size: 16px !important;
         margin: 0 !important;
     }
@@ -332,14 +311,6 @@
         margin: 5px !important;
     }
 
-    .advantages__container {
-        display: grid;
-        grid-template-columns: auto !important;
-    }
-    .advantages__box {
-        margin: 20px 0 !important;
-    }
-
     .history__container {
         flex-direction: column;
     }
@@ -351,20 +322,25 @@
     .tel__num {
         margin-top: 0 !important;
     }
-    h1{
+
+    h1 {
         font-size: 30px !important;
     }
-    .logo{
+
+    .logo {
         width: 132px !important;
         height: 40px !important;
     }
+
     .thisMuseum__title {
         margin: 4rem 0 2rem 0 !important;
     }
-    .sitenav{
-        top:20px !important;
+
+    .sitenav {
+        top: 20px !important;
     }
-    .phone__icon{
+
+    .phone__icon {
         width: 18px !important;
     }
 }

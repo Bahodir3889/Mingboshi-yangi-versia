@@ -9,7 +9,7 @@ import Contacts from './components/Contacts';
 
 const Main = () => {
   return (
-    <div className="main col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-10">
+    <div className="main col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
       <Hero />
       <ThisMuseum />
       <History />

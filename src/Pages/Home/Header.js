@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import Logo1 from '../../assets/home/Logo1.svg'
 
 const Header = () => {
-  // i18next.changeLanguage("ru")
     const { t } = useTranslation();
   const til = (qiymat)=>{
     i18next.changeLanguage(qiymat.target.value)
