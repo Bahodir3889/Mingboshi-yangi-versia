@@ -40,7 +40,7 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100088837771760">
             <img src={Facebook_icon} alt="" />
             </a>
-            <a href="https://t.me/+998911263889">
+            <a href="https://t.me/+998905353332">
               <img src={Telegram_icon} alt="" />
             </a>
           </div>
